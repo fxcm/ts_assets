@@ -1,0 +1,98 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-bell-fill: unicode(ea01);
+$icon-bell: unicode(ea02);
+$icon-chart-type-bar: unicode(ea03);
+$icon-chart-type-candle: unicode(ea04);
+$icon-chart-type-line: unicode(ea05);
+$icon-drag-handle: unicode(ea06);
+$icon-language: unicode(ea07);
+$icon-logout: unicode(ea08);
+$icon-person: unicode(ea09);
+$icon-portfolio: unicode(ea0a);
+$icon-rates: unicode(ea0b);
+$icon-remove: unicode(ea0c);
+$icon-report: unicode(ea0d);
+$icon-search: unicode(ea0e);
+$icon-settings: unicode(ea0f);
+$icon-share: unicode(ea10);
+$icon-star-fill: unicode(ea11);
+$icon-star: unicode(ea12);
+
+.icon-bell-fill::before {
+  content: $icon-bell-fill;
+}
+
+.icon-bell::before {
+  content: $icon-bell;
+}
+
+.icon-chart-type-bar::before {
+  content: $icon-chart-type-bar;
+}
+
+.icon-chart-type-candle::before {
+  content: $icon-chart-type-candle;
+}
+
+.icon-chart-type-line::before {
+  content: $icon-chart-type-line;
+}
+
+.icon-drag-handle::before {
+  content: $icon-drag-handle;
+}
+
+.icon-language::before {
+  content: $icon-language;
+}
+
+.icon-logout::before {
+  content: $icon-logout;
+}
+
+.icon-person::before {
+  content: $icon-person;
+}
+
+.icon-portfolio::before {
+  content: $icon-portfolio;
+}
+
+.icon-rates::before {
+  content: $icon-rates;
+}
+
+.icon-remove::before {
+  content: $icon-remove;
+}
+
+.icon-report::before {
+  content: $icon-report;
+}
+
+.icon-search::before {
+  content: $icon-search;
+}
+
+.icon-settings::before {
+  content: $icon-settings;
+}
+
+.icon-share::before {
+  content: $icon-share;
+}
+
+.icon-star-fill::before {
+  content: $icon-star-fill;
+}
+
+.icon-star::before {
+  content: $icon-star;
+}
+
