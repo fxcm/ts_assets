@@ -1,2 +1,5 @@
-# tsmobile_assets
-# icon font
+# FXCM TS Icons
+
+Library of SVG Icons in Web Font.
+
+## Usage
