@@ -1,12 +1,6 @@
-/* --------------------------------
-
+/*--------------------------------
 fxcm-ts Web Font
-Generated using nucleoapp.com
-
 -------------------------------- */
-@import "variables";
-@import "mixins";
-
 @font-face {
   font-family: 'fxcm-ts';
   src: url(data:font/opentype;charset=utf-8;base64,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CWJlbGwtZmlsbARiZWxsC2NoYXJ0LWFycm93D2NoYXJ0LWF1dG9zY2FsZQ9jaGFydC1jcm9zc2hhaXIKY2hhcnQtZHJhdw1jaGFydC1lbGxpcHNlEGNoYXJ0LWZ1bGxzY3JlZW4PY2hhcnQtaGlzdG9ncmFtEGNoYXJ0LWluZGljYXRvcnMMY2hhcnQtbGF5ZXJzFWNoYXJ0LWxpbmUtaG9yaXpvbnRhbBNjaGFydC1saW5lLXZlcnRpY2FsCmNoYXJ0LWxpbmUKY2hhcnQtbm9uZQ9jaGFydC1yZWN0YW5nbGULY2hhcnQtcnVsZXIOY2hhcnQtdHlwZS1iYXIRY2hhcnQtdHlwZS1jYW5kbGUPY2hhcnQtdHlwZS1saW5lCmNoZWNrLWZpbGwFY2hlY2sFY2xvc2ULZHJhZy1oYW5kbGUIbGFuZ3VhZ2UGbG9nb3V0BW1pbnVzBnBlcnNvbgRwbHVzCXBvcnRmb2xpbwVyYXRlcwtyZW1vdmUtZmlsbAZyZW1vdmUGcmVwb3J0BnNlYXJjaA1zZXR0aW5ncy1maWxsCHNldHRpbmdzBXNoYXJlCXN0YXItZmlsbARzdGFyBHVzZXIOdmlzaWJpbGl0eS1vZmYKdmlzaWJpbGl0eQAAAA==);
@@ -15,11 +9,9 @@ Generated using nucleoapp.com
   font-weight: normal;
   font-style: normal;
 }
-
 /*------------------------
 	base class definition
 -------------------------*/
-
 .icon {
   display: inline-block;
   font: normal normal normal 24px/1 'fxcm-ts';
@@ -29,70 +21,58 @@ Generated using nucleoapp.com
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 /*------------------------
   change icon size
 -------------------------*/
-
 /* relative units */
 .icon-sm {
-	font-size: 0.8em;
+  font-size: 0.8em;
 }
 .icon-lg {
   font-size: 1.2em;
 }
 /* absolute units */
 .icon-16 {
-	font-size: 16px;
+  font-size: 16px;
 }
 .icon-32 {
-	font-size: 32px;
+  font-size: 32px;
 }
-
 /*----------------------------------
   add a square/circle background
 -----------------------------------*/
-
 .icon-bg-square,
 .icon-bg-circle {
   padding: 3px;
-  background-color: $icon-background-color;
+  background-color: #eee;
 }
-
 .icon-bg-circle {
   border-radius: 50%;
 }
-
 /*------------------------------------
   use icons as list item markers
 -------------------------------------*/
-
 .icon-ul {
   padding-left: 0;
   list-style-type: none;
-
-  > li {
-    display: flex;
-    align-items: flex-start;
-    line-height: 1.4;
-  }
-
-  > li > .icon {
-    margin-right: $icon-li-margin-right;
-    line-height: inherit;
-  }
 }
-
+.icon-ul > li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.icon-ul > li > .icon {
+  margin-right: 0.4em;
+  line-height: inherit;
+}
 /*------------------------
   spinning icons
 -------------------------*/
-
 .icon-is-spinning {
   -webkit-animation: icon-spin 2s infinite linear;
   -moz-animation: icon-spin 2s infinite linear;
   animation: icon-spin 2s infinite linear;
 }
-
 @-webkit-keyframes icon-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -125,28 +105,230 @@ Generated using nucleoapp.com
     transform: rotate(360deg);
   }
 }
-
 /*------------------------
   rotated/flipped icons
 -------------------------*/
-
-.icon-rotate-90  {
-	@include icon-rotate(90deg, 1);
+.icon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
-
 .icon-rotate-180 {
-	@include icon-rotate(180deg, 2);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
-
 .icon-rotate-270 {
-	@include icon-rotate(270deg, 3);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
-
 .icon-flip-y {
-	@include icon-flip(-1, 1, 0);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 .icon-flip-x {
-	@include icon-flip(1, -1, 2);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+/*------------------------
+  icons
+-------------------------*/
+
+.icon-add-fill::before {
+  content: "\ea01";
 }
 
-@import "icons";
+.icon-add::before {
+  content: "\ea02";
+}
+
+.icon-bell-fill::before {
+  content: "\ea03";
+}
+
+.icon-bell::before {
+  content: "\ea04";
+}
+
+.icon-chart-arrow::before {
+  content: "\ea05";
+}
+
+.icon-chart-autoscale::before {
+  content: "\ea06";
+}
+
+.icon-chart-crosshair::before {
+  content: "\ea07";
+}
+
+.icon-chart-draw::before {
+  content: "\ea08";
+}
+
+.icon-chart-ellipse::before {
+  content: "\ea09";
+}
+
+.icon-chart-fullscreen::before {
+  content: "\ea0a";
+}
+
+.icon-chart-histogram::before {
+  content: "\ea0b";
+}
+
+.icon-chart-indicators::before {
+  content: "\ea0c";
+}
+
+.icon-chart-layers::before {
+  content: "\ea0d";
+}
+
+.icon-chart-line-horizontal::before {
+  content: "\ea0e";
+}
+
+.icon-chart-line-vertical::before {
+  content: "\ea0f";
+}
+
+.icon-chart-line::before {
+  content: "\ea10";
+}
+
+.icon-chart-none::before {
+  content: "\ea11";
+}
+
+.icon-chart-rectangle::before {
+  content: "\ea12";
+}
+
+.icon-chart-ruler::before {
+  content: "\ea13";
+}
+
+.icon-chart-type-bar::before {
+  content: "\ea14";
+}
+
+.icon-chart-type-candle::before {
+  content: "\ea15";
+}
+
+.icon-chart-type-line::before {
+  content: "\ea16";
+}
+
+.icon-check-fill::before {
+  content: "\ea17";
+}
+
+.icon-check::before {
+  content: "\ea18";
+}
+
+.icon-close::before {
+  content: "\ea1a";
+}
+
+.icon-drag-handle::before {
+  content: "\ea19";
+}
+
+.icon-language::before {
+  content: "\ea1b";
+}
+
+.icon-logout::before {
+  content: "\ea1c";
+}
+
+.icon-minus::before {
+  content: "\ea1d";
+}
+
+.icon-person::before {
+  content: "\ea20";
+}
+
+.icon-plus::before {
+  content: "\ea1e";
+}
+
+.icon-portfolio::before {
+  content: "\ea1f";
+}
+
+.icon-rates::before {
+  content: "\ea21";
+}
+
+.icon-remove-fill::before {
+  content: "\ea22";
+}
+
+.icon-remove::before {
+  content: "\ea23";
+}
+
+.icon-report::before {
+  content: "\ea24";
+}
+
+.icon-search::before {
+  content: "\ea25";
+}
+
+.icon-settings-fill::before {
+  content: "\ea26";
+}
+
+.icon-settings::before {
+  content: "\ea27";
+}
+
+.icon-share::before {
+  content: "\ea28";
+}
+
+.icon-star-fill::before {
+  content: "\ea29";
+}
+
+.icon-star::before {
+  content: "\ea2a";
+}
+
+.icon-user::before {
+  content: "\ea2b";
+}
+
+.icon-visibility-off::before {
+  content: "\ea2d";
+}
+
+.icon-visibility::before {
+  content: "\ea2c";
+}
+

@@ -5,24 +5,59 @@
   @return unquote("\"\\#{$str}\"");
 }
 
-$icon-bell-fill: unicode(ea01);
-$icon-bell: unicode(ea02);
-$icon-chart-type-bar: unicode(ea03);
-$icon-chart-type-candle: unicode(ea04);
-$icon-chart-type-line: unicode(ea05);
-$icon-drag-handle: unicode(ea06);
-$icon-language: unicode(ea07);
-$icon-logout: unicode(ea08);
-$icon-person: unicode(ea09);
-$icon-portfolio: unicode(ea0a);
-$icon-rates: unicode(ea0b);
-$icon-remove: unicode(ea0c);
-$icon-report: unicode(ea0d);
-$icon-search: unicode(ea0e);
-$icon-settings: unicode(ea0f);
-$icon-share: unicode(ea10);
-$icon-star-fill: unicode(ea11);
-$icon-star: unicode(ea12);
+$icon-add-fill: unicode(ea01);
+$icon-add: unicode(ea02);
+$icon-bell-fill: unicode(ea03);
+$icon-bell: unicode(ea04);
+$icon-chart-arrow: unicode(ea05);
+$icon-chart-autoscale: unicode(ea06);
+$icon-chart-crosshair: unicode(ea07);
+$icon-chart-draw: unicode(ea08);
+$icon-chart-ellipse: unicode(ea09);
+$icon-chart-fullscreen: unicode(ea0a);
+$icon-chart-histogram: unicode(ea0b);
+$icon-chart-indicators: unicode(ea0c);
+$icon-chart-layers: unicode(ea0d);
+$icon-chart-line-horizontal: unicode(ea0e);
+$icon-chart-line-vertical: unicode(ea0f);
+$icon-chart-line: unicode(ea10);
+$icon-chart-none: unicode(ea11);
+$icon-chart-rectangle: unicode(ea12);
+$icon-chart-ruler: unicode(ea13);
+$icon-chart-type-bar: unicode(ea14);
+$icon-chart-type-candle: unicode(ea15);
+$icon-chart-type-line: unicode(ea16);
+$icon-check-fill: unicode(ea17);
+$icon-check: unicode(ea18);
+$icon-close: unicode(ea1a);
+$icon-drag-handle: unicode(ea19);
+$icon-language: unicode(ea1b);
+$icon-logout: unicode(ea1c);
+$icon-minus: unicode(ea1d);
+$icon-person: unicode(ea20);
+$icon-plus: unicode(ea1e);
+$icon-portfolio: unicode(ea1f);
+$icon-rates: unicode(ea21);
+$icon-remove-fill: unicode(ea22);
+$icon-remove: unicode(ea23);
+$icon-report: unicode(ea24);
+$icon-search: unicode(ea25);
+$icon-settings-fill: unicode(ea26);
+$icon-settings: unicode(ea27);
+$icon-share: unicode(ea28);
+$icon-star-fill: unicode(ea29);
+$icon-star: unicode(ea2a);
+$icon-user: unicode(ea2b);
+$icon-visibility-off: unicode(ea2d);
+$icon-visibility: unicode(ea2c);
+
+.icon-add-fill::before {
+  content: $icon-add-fill;
+}
+
+.icon-add::before {
+  content: $icon-add;
+}
 
 .icon-bell-fill::before {
   content: $icon-bell-fill;
@@ -30,6 +65,66 @@ $icon-star: unicode(ea12);
 
 .icon-bell::before {
   content: $icon-bell;
+}
+
+.icon-chart-arrow::before {
+  content: $icon-chart-arrow;
+}
+
+.icon-chart-autoscale::before {
+  content: $icon-chart-autoscale;
+}
+
+.icon-chart-crosshair::before {
+  content: $icon-chart-crosshair;
+}
+
+.icon-chart-draw::before {
+  content: $icon-chart-draw;
+}
+
+.icon-chart-ellipse::before {
+  content: $icon-chart-ellipse;
+}
+
+.icon-chart-fullscreen::before {
+  content: $icon-chart-fullscreen;
+}
+
+.icon-chart-histogram::before {
+  content: $icon-chart-histogram;
+}
+
+.icon-chart-indicators::before {
+  content: $icon-chart-indicators;
+}
+
+.icon-chart-layers::before {
+  content: $icon-chart-layers;
+}
+
+.icon-chart-line-horizontal::before {
+  content: $icon-chart-line-horizontal;
+}
+
+.icon-chart-line-vertical::before {
+  content: $icon-chart-line-vertical;
+}
+
+.icon-chart-line::before {
+  content: $icon-chart-line;
+}
+
+.icon-chart-none::before {
+  content: $icon-chart-none;
+}
+
+.icon-chart-rectangle::before {
+  content: $icon-chart-rectangle;
+}
+
+.icon-chart-ruler::before {
+  content: $icon-chart-ruler;
 }
 
 .icon-chart-type-bar::before {
@@ -44,6 +139,18 @@ $icon-star: unicode(ea12);
   content: $icon-chart-type-line;
 }
 
+.icon-check-fill::before {
+  content: $icon-check-fill;
+}
+
+.icon-check::before {
+  content: $icon-check;
+}
+
+.icon-close::before {
+  content: $icon-close;
+}
+
 .icon-drag-handle::before {
   content: $icon-drag-handle;
 }
@@ -56,8 +163,16 @@ $icon-star: unicode(ea12);
   content: $icon-logout;
 }
 
+.icon-minus::before {
+  content: $icon-minus;
+}
+
 .icon-person::before {
   content: $icon-person;
+}
+
+.icon-plus::before {
+  content: $icon-plus;
 }
 
 .icon-portfolio::before {
@@ -66,6 +181,10 @@ $icon-star: unicode(ea12);
 
 .icon-rates::before {
   content: $icon-rates;
+}
+
+.icon-remove-fill::before {
+  content: $icon-remove-fill;
 }
 
 .icon-remove::before {
@@ -78,6 +197,10 @@ $icon-star: unicode(ea12);
 
 .icon-search::before {
   content: $icon-search;
+}
+
+.icon-settings-fill::before {
+  content: $icon-settings-fill;
 }
 
 .icon-settings::before {
@@ -94,5 +217,17 @@ $icon-star: unicode(ea12);
 
 .icon-star::before {
   content: $icon-star;
+}
+
+.icon-user::before {
+  content: $icon-user;
+}
+
+.icon-visibility-off::before {
+  content: $icon-visibility-off;
+}
+
+.icon-visibility::before {
+  content: $icon-visibility;
 }
 
