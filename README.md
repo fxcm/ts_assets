@@ -1,5 +1,5 @@
-# FXCM TS Icons
+# FXCM UI Assets
 
-Library of SVG Icons in Web Font.
+UI Assets including Icons, Fonts and Colors.
 
 ## Usage
