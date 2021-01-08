@@ -26,30 +26,36 @@ $icon-chart-rectangle: unicode(ea12);
 $icon-chart-ruler: unicode(ea13);
 $icon-chart-type-bar: unicode(ea14);
 $icon-chart-type-candle: unicode(ea15);
-$icon-chart-type-line: unicode(ea16);
-$icon-check-fill: unicode(ea17);
+$icon-chart-type-line: unicode(ea17);
+$icon-check-fill: unicode(ea16);
 $icon-check: unicode(ea18);
-$icon-close: unicode(ea1a);
-$icon-drag-handle: unicode(ea19);
-$icon-language: unicode(ea1b);
-$icon-logout: unicode(ea1c);
-$icon-minus: unicode(ea1d);
-$icon-person: unicode(ea20);
-$icon-plus: unicode(ea1e);
-$icon-portfolio: unicode(ea1f);
-$icon-rates: unicode(ea21);
-$icon-remove-fill: unicode(ea22);
-$icon-remove: unicode(ea23);
-$icon-report: unicode(ea24);
-$icon-search: unicode(ea25);
-$icon-settings-fill: unicode(ea26);
-$icon-settings: unicode(ea27);
-$icon-share: unicode(ea28);
-$icon-star-fill: unicode(ea29);
-$icon-star: unicode(ea2a);
-$icon-user: unicode(ea2b);
-$icon-visibility-off: unicode(ea2d);
-$icon-visibility: unicode(ea2c);
+$icon-close: unicode(ea19);
+$icon-drag-handle: unicode(ea1a);
+$icon-info-fill: unicode(ea1b);
+$icon-info: unicode(ea1c);
+$icon-language: unicode(ea1d);
+$icon-logout: unicode(ea1e);
+$icon-minus: unicode(ea1f);
+$icon-more-horiz: unicode(ea20);
+$icon-more-vert: unicode(ea21);
+$icon-person-circle: unicode(ea22);
+$icon-person-fill: unicode(ea24);
+$icon-person: unicode(ea23);
+$icon-plus: unicode(ea25);
+$icon-portfolio: unicode(ea26);
+$icon-rates: unicode(ea27);
+$icon-remove-fill: unicode(ea28);
+$icon-remove: unicode(ea29);
+$icon-report: unicode(ea2a);
+$icon-search-list: unicode(ea2b);
+$icon-search: unicode(ea2c);
+$icon-settings-fill: unicode(ea2d);
+$icon-settings: unicode(ea2e);
+$icon-share: unicode(ea2f);
+$icon-star-fill: unicode(ea30);
+$icon-star: unicode(ea31);
+$icon-visibility-off: unicode(ea32);
+$icon-visibility: unicode(ea33);
 
 .icon-add-fill::before {
   content: $icon-add-fill;
@@ -155,6 +161,14 @@ $icon-visibility: unicode(ea2c);
   content: $icon-drag-handle;
 }
 
+.icon-info-fill::before {
+  content: $icon-info-fill;
+}
+
+.icon-info::before {
+  content: $icon-info;
+}
+
 .icon-language::before {
   content: $icon-language;
 }
@@ -165,6 +179,22 @@ $icon-visibility: unicode(ea2c);
 
 .icon-minus::before {
   content: $icon-minus;
+}
+
+.icon-more-horiz::before {
+  content: $icon-more-horiz;
+}
+
+.icon-more-vert::before {
+  content: $icon-more-vert;
+}
+
+.icon-person-circle::before {
+  content: $icon-person-circle;
+}
+
+.icon-person-fill::before {
+  content: $icon-person-fill;
 }
 
 .icon-person::before {
@@ -195,6 +225,10 @@ $icon-visibility: unicode(ea2c);
   content: $icon-report;
 }
 
+.icon-search-list::before {
+  content: $icon-search-list;
+}
+
 .icon-search::before {
   content: $icon-search;
 }
@@ -217,10 +251,6 @@ $icon-visibility: unicode(ea2c);
 
 .icon-star::before {
   content: $icon-star;
-}
-
-.icon-user::before {
-  content: $icon-user;
 }
 
 .icon-visibility-off::before {

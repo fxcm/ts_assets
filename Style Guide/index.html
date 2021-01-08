@@ -4,15 +4,432 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    <link href="style.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
     <title>FXCM Style Guide</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-light sticky-top flex-md-nowrap p-0 shadow-dreamy">
+        <a class="navbar-brand col-3 col-lg-2 mr-0 px-3" href="#"><svg id="Group_45" data-name="Group 45" xmlns="http://www.w3.org/2000/svg" width="136" height="40" viewBox="0 0 136 40">
+          <circle id="Ellipse_7" data-name="Ellipse 7" cx="20" cy="20" r="20" fill="none" opacity="0.15"/>
+          <path id="Path_868" data-name="Path 868" d="M49,9H63v4H52a2,2,0,0,0-2,2v3H63v4H50v7H45V13A4.012,4.012,0,0,1,49,9ZM80,9l-4.333,6L71,9H65l7.333,10L65,29h6l4.667-6L80,29h6L79,19,86,9Zm24,0H92a4,4,0,0,0-4,4V25a4,4,0,0,0,4,4h12a4,4,0,0,0,4-4V22h-5v1a2,2,0,0,1-2,2H95a2,2,0,0,1-2-2V15a2,2,0,0,1,2-2h6a2,2,0,0,1,2,2v1h5V13A4,4,0,0,0,104,9Zm28,0H115a4,4,0,0,0-4,4V29h5V15a2,2,0,0,1,2-2h3V29h5V13h3a2,2,0,0,1,2,2V29h5V13A4,4,0,0,0,132,9Z" fill="#212529" fill-rule="evenodd"/>
+          <path id="Path_869" data-name="Path 869" d="M0,0"/>
+          <path id="Path_870" data-name="Path 870" d="M4.14,12H20a2,2,0,0,1,2,2v8.528a1.5,1.5,0,0,0,2.528,1.093l12.5-11.768a1.518,1.518,0,0,0,.256-1.874A19.975,19.975,0,0,0,2.861,9.7,1.508,1.508,0,0,0,4.14,12Z" fill="#e42548"/>
+          <path id="Path_871" data-name="Path 871" d="M35.86,28H20a2,2,0,0,1-2-2V17.472a1.5,1.5,0,0,0-2.528-1.093L2.968,28.147a1.518,1.518,0,0,0-.256,1.874,19.975,19.975,0,0,0,34.427.274A1.508,1.508,0,0,0,35.86,28Z" fill="#0071eb"/>
+        </svg>
+        </a>
+        <ul class="navbar-nav px-3">
+          <li class="nav-item text-nowrap">
+              Version 0.5
+          </li>
+        </ul>
+    </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link anchor" href="#branding">
+                    Branding
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link anchor" href="#colors">
+                    Colors
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link anchor" href="#typography">
+                    Typography
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link anchor" href="#icons">
+                    Icons
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      
+          <main role="main" class="col-md-9 ms-sm-auto col-lg-10 pt-5 px-md-5">
+            <h1 >FXCM Style Guide</h1>
+            <p class="lead">A basic style guide for all Trading Platforms including TS Web, TS Mobile and TS Light (PWA).</p>
+            
+            <h2 class="mt-5" id="branding"><span class="text-black-50">01 /</span> Branding</h2>
+            <hr class="my-3" >
+            <p>Branding and logo information will go here.</p>
+            
+            <h2 class="mt-5" id="colors"><span class="text-black-50">02 /</span> Colors</h2>
+            <hr class="my-3" >
+            <p>These are the primary colors.</p>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="card-img-top ts-bg-blue" style="height: 100px;"></div>
+                        <div class="card-body card-body-sm" style="height: 133px;">                           
+                            <h5>Blue / Price UP</h5>
+                            <div class="mt-3">
+                                <strong>Hex:</strong>
+                                #0071eb<br>
+                                <strong>RGB:</strong>
+                                rgb(0,113,235)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="card-img-top ts-bg-red" style="height: 100px;"></div>
+                        <div class="card-body card-body-sm" style="height: 133px;">                           
+                            <h5>Red / Price Down</h5>
+                            <div class="mt-3">
+                                <strong>Hex:</strong>
+                                #e42548<br>
+                                <strong>RGB:</strong>
+                                rgb(228,37,72)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                <div class="card mb-3">
+                    <div class="card-img-top ts-bg-green" style="height: 100px;"></div>
+                    <div class="card-body card-body-sm" style="height: 133px;">                           
+                        <h5>Green</h5>
+                        <div class="mt-3">
+                            <strong>Hex:</strong>
+                            #33a04e<br>
+                            <strong>RGB:</strong>
+                            rgb(51,160,78)
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <pre><code class="language-css">.ts-blue {color: #0071eb;}
+.ts-red {color: #e42548;}
+.ts-green {color: #33a04e;}</code></pre>
+            
+            <h2 class="mt-5" id="typography"><span class="text-black-50">03 /</span> Typography</h2>
+            <hr class="my-3">
+            <div class="row">
+              <div class="col"><h1 class="f-700 mb-0" style="font-size: 5.5rem; line-height: 1;">Aa</h1><h3 class="mt-0">Roboto</h3>
+              </div>
+              <div class="col">
+                <h6>Font Family:</h6>
+                <p class="f-400">Roboto</p>
+                <h6>CSS rules to specify families:</h6>
+                <p class="f-400"><i>font-family: 'Roboto', sans-serif;</i></p>
+              </div>
+              <div class="col"><strong>Styles:</strong>
+                <br>
+                <span class="f-400">Regular - 400</span><br>
+                <span class="f-500">Medium - 500</span><br>
+                <span class="f-700">Bold - 700</span>
+              </div>
+            </div>
+            <p>Latest font could be downloaded directly from <a href="https://fonts.google.com/specimen/Roboto" target="_blakn">Google Fonts</a>. </p>
+            <h4>Using on the web</h4>
+            <p>To embed a font, copy the code into the <code>&lt;head&gt;</code> of your html</p>
+            <pre><code class="language-html">&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot;&gt;<br/>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre>
 
-    
+            
+            
+            <h2 class="mt-5" id="icons"><span class="text-black-50">04 /</span> Icons</h2>
+            <hr class="my-3">
+            <p class="lead">In the Icon Library there is a wide range of icons available for all applications. All icons are available as SVG and Icon Font.</p>
+        
+            <div class="icons-list">
+                <ul>
+                
+                    <li>
+                        <i class="icon icon-add-fill"></i>
+                        <p>icon-add-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-add"></i>
+                        <p>icon-add</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-bell-fill"></i>
+                        <p>icon-bell-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-bell"></i>
+                        <p>icon-bell</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-arrow"></i>
+                        <p>icon-chart-arrow</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-autoscale"></i>
+                        <p>icon-chart-autoscale</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-crosshair"></i>
+                        <p>icon-chart-crosshair</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-draw"></i>
+                        <p>icon-chart-draw</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-ellipse"></i>
+                        <p>icon-chart-ellipse</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-fullscreen"></i>
+                        <p>icon-chart-fullscreen</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-histogram"></i>
+                        <p>icon-chart-histogram</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-indicators"></i>
+                        <p>icon-chart-indicators</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-layers"></i>
+                        <p>icon-chart-layers</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-line-horizontal"></i>
+                        <p>icon-chart-line-horizontal</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-line-vertical"></i>
+                        <p>icon-chart-line-vertical</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-line"></i>
+                        <p>icon-chart-line</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-none"></i>
+                        <p>icon-chart-none</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-rectangle"></i>
+                        <p>icon-chart-rectangle</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-ruler"></i>
+                        <p>icon-chart-ruler</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-type-bar"></i>
+                        <p>icon-chart-type-bar</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-type-candle"></i>
+                        <p>icon-chart-type-candle</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-chart-type-line"></i>
+                        <p>icon-chart-type-line</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-check-fill"></i>
+                        <p>icon-check-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-check"></i>
+                        <p>icon-check</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-close"></i>
+                        <p>icon-close</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-drag-handle"></i>
+                        <p>icon-drag-handle</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-info-fill"></i>
+                        <p>icon-info-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-info"></i>
+                        <p>icon-info</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-language"></i>
+                        <p>icon-language</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-logout"></i>
+                        <p>icon-logout</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-minus"></i>
+                        <p>icon-minus</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-more-horiz"></i>
+                        <p>icon-more-horiz</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-more-vert"></i>
+                        <p>icon-more-vert</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-person-circle"></i>
+                        <p>icon-person-circle</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-person-fill"></i>
+                        <p>icon-person-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-person"></i>
+                        <p>icon-person</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-plus"></i>
+                        <p>icon-plus</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-portfolio"></i>
+                        <p>icon-portfolio</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-rates"></i>
+                        <p>icon-rates</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-remove-fill"></i>
+                        <p>icon-remove-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-remove"></i>
+                        <p>icon-remove</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-report"></i>
+                        <p>icon-report</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-search-list"></i>
+                        <p>icon-search-list</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-search"></i>
+                        <p>icon-search</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-settings-fill"></i>
+                        <p>icon-settings-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-settings"></i>
+                        <p>icon-settings</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-share"></i>
+                        <p>icon-share</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-star-fill"></i>
+                        <p>icon-star-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-star"></i>
+                        <p>icon-star</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-visibility-off"></i>
+                        <p>icon-visibility-off</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-visibility"></i>
+                        <p>icon-visibility</p>
+                    </li>
+                
+				<!-- list of icons here with the proper class-->
+			</ul>
+        </div>
+            <h4>Sizing and Color</h4>
+            <p>Icons automatically inherit CSS size and color (as seen in the examples below).<br> You can use the following classes for different sizes, which are included in font.css file: <code>.icon-16 .icon-24 .icon-32</code></p>
+            <div class="d-flex align-items-center">
+            <i class="icon icon-star icon-16"></i><i class="icon icon-star icon-24"></i><i class="icon icon-star icon-32"></i>
+            </div>
+            <pre><code class="language-html">&lt;i class=&quot;icon icon-star icon-16&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;icon icon-star icon-24&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;icon icon-star icon-32&quot;&gt;&lt;/i&gt;</code></pre>
+
+            <div class="d-flex align-items-center"><i class="icon icon-star text-dark"></i><i class="icon icon-star ts-blue"></i><i class="icon icon-star ts-red"></i><i class="icon icon-star text-black-50"></i></div>
+            <pre><code class="language-html">&lt;i class=&quot;icon icon-star text-dark&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;icon icon-star ts-blue&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;icon icon-star ts-red&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;icon icon-star text-black-50&quot;&gt;&lt;/i&gt;</code></pre>
+
+<p>Add a circle background using <code>.icon-bg-circle</code></p>
+
+<i class="icon icon-close icon-bg-circle"></i>
+<pre><code class="language-html">&lt;i class=&quot;icon icon-close icon-bg-circle&quot;&gt;&lt;/i&gt;</code></pre>
+
+            
+          </main>
+        </div>
+      </div>
+      <script src="js/prism.js"></script>
   </body>
 </html>

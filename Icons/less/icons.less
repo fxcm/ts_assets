@@ -1,24 +1,65 @@
 /*------------------------
 	icons
 -------------------------*/
-@icon-bell-fill: "\ea01";
-@icon-bell: "\ea02";
-@icon-chart-type-bar: "\ea03";
-@icon-chart-type-candle: "\ea04";
-@icon-chart-type-line: "\ea05";
-@icon-drag-handle: "\ea06";
-@icon-language: "\ea07";
-@icon-logout: "\ea08";
-@icon-person: "\ea09";
-@icon-portfolio: "\ea0a";
-@icon-rates: "\ea0b";
-@icon-remove: "\ea0c";
-@icon-report: "\ea0d";
-@icon-search: "\ea0e";
-@icon-settings: "\ea0f";
-@icon-share: "\ea10";
-@icon-star-fill: "\ea11";
-@icon-star: "\ea12";
+@icon-add-fill: "\ea01";
+@icon-add: "\ea02";
+@icon-bell-fill: "\ea03";
+@icon-bell: "\ea04";
+@icon-chart-arrow: "\ea05";
+@icon-chart-autoscale: "\ea06";
+@icon-chart-crosshair: "\ea07";
+@icon-chart-draw: "\ea08";
+@icon-chart-ellipse: "\ea09";
+@icon-chart-fullscreen: "\ea0a";
+@icon-chart-histogram: "\ea0b";
+@icon-chart-indicators: "\ea0c";
+@icon-chart-layers: "\ea0d";
+@icon-chart-line-horizontal: "\ea0e";
+@icon-chart-line-vertical: "\ea0f";
+@icon-chart-line: "\ea10";
+@icon-chart-none: "\ea11";
+@icon-chart-rectangle: "\ea12";
+@icon-chart-ruler: "\ea13";
+@icon-chart-type-bar: "\ea14";
+@icon-chart-type-candle: "\ea15";
+@icon-chart-type-line: "\ea17";
+@icon-check-fill: "\ea16";
+@icon-check: "\ea18";
+@icon-close: "\ea19";
+@icon-drag-handle: "\ea1a";
+@icon-info-fill: "\ea1b";
+@icon-info: "\ea1c";
+@icon-language: "\ea1d";
+@icon-logout: "\ea1e";
+@icon-minus: "\ea1f";
+@icon-more-horiz: "\ea20";
+@icon-more-vert: "\ea21";
+@icon-person-circle: "\ea22";
+@icon-person-fill: "\ea24";
+@icon-person: "\ea23";
+@icon-plus: "\ea25";
+@icon-portfolio: "\ea26";
+@icon-rates: "\ea27";
+@icon-remove-fill: "\ea28";
+@icon-remove: "\ea29";
+@icon-report: "\ea2a";
+@icon-search-list: "\ea2b";
+@icon-search: "\ea2c";
+@icon-settings-fill: "\ea2d";
+@icon-settings: "\ea2e";
+@icon-share: "\ea2f";
+@icon-star-fill: "\ea30";
+@icon-star: "\ea31";
+@icon-visibility-off: "\ea32";
+@icon-visibility: "\ea33";
+
+.icon-add-fill::before {
+  content: @icon-add-fill;
+}
+
+.icon-add::before {
+  content: @icon-add;
+}
 
 .icon-bell-fill::before {
   content: @icon-bell-fill;
@@ -26,6 +67,66 @@
 
 .icon-bell::before {
   content: @icon-bell;
+}
+
+.icon-chart-arrow::before {
+  content: @icon-chart-arrow;
+}
+
+.icon-chart-autoscale::before {
+  content: @icon-chart-autoscale;
+}
+
+.icon-chart-crosshair::before {
+  content: @icon-chart-crosshair;
+}
+
+.icon-chart-draw::before {
+  content: @icon-chart-draw;
+}
+
+.icon-chart-ellipse::before {
+  content: @icon-chart-ellipse;
+}
+
+.icon-chart-fullscreen::before {
+  content: @icon-chart-fullscreen;
+}
+
+.icon-chart-histogram::before {
+  content: @icon-chart-histogram;
+}
+
+.icon-chart-indicators::before {
+  content: @icon-chart-indicators;
+}
+
+.icon-chart-layers::before {
+  content: @icon-chart-layers;
+}
+
+.icon-chart-line-horizontal::before {
+  content: @icon-chart-line-horizontal;
+}
+
+.icon-chart-line-vertical::before {
+  content: @icon-chart-line-vertical;
+}
+
+.icon-chart-line::before {
+  content: @icon-chart-line;
+}
+
+.icon-chart-none::before {
+  content: @icon-chart-none;
+}
+
+.icon-chart-rectangle::before {
+  content: @icon-chart-rectangle;
+}
+
+.icon-chart-ruler::before {
+  content: @icon-chart-ruler;
 }
 
 .icon-chart-type-bar::before {
@@ -40,8 +141,28 @@
   content: @icon-chart-type-line;
 }
 
+.icon-check-fill::before {
+  content: @icon-check-fill;
+}
+
+.icon-check::before {
+  content: @icon-check;
+}
+
+.icon-close::before {
+  content: @icon-close;
+}
+
 .icon-drag-handle::before {
   content: @icon-drag-handle;
+}
+
+.icon-info-fill::before {
+  content: @icon-info-fill;
+}
+
+.icon-info::before {
+  content: @icon-info;
 }
 
 .icon-language::before {
@@ -52,8 +173,32 @@
   content: @icon-logout;
 }
 
+.icon-minus::before {
+  content: @icon-minus;
+}
+
+.icon-more-horiz::before {
+  content: @icon-more-horiz;
+}
+
+.icon-more-vert::before {
+  content: @icon-more-vert;
+}
+
+.icon-person-circle::before {
+  content: @icon-person-circle;
+}
+
+.icon-person-fill::before {
+  content: @icon-person-fill;
+}
+
 .icon-person::before {
   content: @icon-person;
+}
+
+.icon-plus::before {
+  content: @icon-plus;
 }
 
 .icon-portfolio::before {
@@ -64,6 +209,10 @@
   content: @icon-rates;
 }
 
+.icon-remove-fill::before {
+  content: @icon-remove-fill;
+}
+
 .icon-remove::before {
   content: @icon-remove;
 }
@@ -72,8 +221,16 @@
   content: @icon-report;
 }
 
+.icon-search-list::before {
+  content: @icon-search-list;
+}
+
 .icon-search::before {
   content: @icon-search;
+}
+
+.icon-settings-fill::before {
+  content: @icon-settings-fill;
 }
 
 .icon-settings::before {
@@ -90,5 +247,13 @@
 
 .icon-star::before {
   content: @icon-star;
+}
+
+.icon-visibility-off::before {
+  content: @icon-visibility-off;
+}
+
+.icon-visibility::before {
+  content: @icon-visibility;
 }
 
