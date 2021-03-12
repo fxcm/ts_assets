@@ -5,14 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    <link href="style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="tsw-style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link href="css/font.css" rel="stylesheet">
     <link href="css/prism.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
     <title>FXCM Style Guide</title>
   </head>
-  <body>
+  <body data-theme="">
     <nav class="navbar navbar-light sticky-top flex-md-nowrap p-0 shadow-dreamy">
         <a class="navbar-brand col-3 col-lg-2 mr-0 px-3" href="#"><svg id="Group_45" data-name="Group 45" xmlns="http://www.w3.org/2000/svg" width="136" height="40" viewBox="0 0 136 40">
           <circle id="Ellipse_7" data-name="Ellipse 7" cx="20" cy="20" r="20" fill="none" opacity="0.15"/>
@@ -60,6 +62,8 @@
           <main role="main" class="col-md-9 ms-sm-auto col-lg-10 pt-5 px-md-5">
             <h1 >FXCM Style Guide</h1>
             <p class="lead">A basic style guide for all Trading Platforms including TS Web, TS Mobile and TS Light (PWA).</p>
+
+
             
             <h2 class="mt-5" id="branding"><span class="text-black-50">01 /</span> Branding</h2>
             <hr class="my-3" >
@@ -67,71 +71,228 @@
             
             <h2 class="mt-5" id="colors"><span class="text-black-50">02 /</span> Colors</h2>
             <hr class="my-3" >
-            <p>These are the primary colors.</p>
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col">
-                    <div class="card mb-3">
-                        <div class="card-img-top ts-bg-blue" style="height: 100px;"></div>
-                        <div class="card-body card-body-sm" style="height: 133px;">                           
-                            <h5>Blue / Price UP</h5>
-                            <div class="mt-3">
-                                <strong>Hex:</strong>
-                                #0071eb<br>
-                                <strong>RGB:</strong>
-                                rgb(0,113,235)
+
+            <table class="table">
+            <thead>
+                <tr class="ts-gray-600">
+                <th scope="col" class="fw-400">Name</th>
+                <th scope="col" class="fw-400">Light</th>
+                <th scope="col" class="fw-400">Dark</th>
+                <th scope="col" class="fw-400">Usage</th>
+                </tr>
+            </thead>
+            <tbody class="fs-13">
+                <tr>
+                    <td scope="row" class="fw-500">ts-bg-main</td>
+                    <td><span class="sample-color ts-bg-main float-start"></span> #ffffff</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-main float-start"></span>#131314</td>
+                    <td>Main Page Background</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-blue</td>
+                    <td><span class="sample-color ts-bg-blue float-start"></span> #0071eb</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-blue float-start"></span>#2f93ff</td>
+                    <td>Price Up, Links, Active States</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-red</td>
+                    <td><span class="sample-color ts-bg-red float-start"></span> #e42548</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-red float-start"></span>#f24968</td>
+                    <td>Price Down, danger/error states</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-green</td>
+                    <td><span class="sample-color ts-bg-green float-start"></span>#2ea44f</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-green float-start"></span>#2ea44f</td>
+                    <td>Positive, Success</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-orange</td>
+                    <td><span class="sample-color ts-bg-orange float-start"></span>#fd581f</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-orange float-start"></span>#fd581f</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-yellow</td>
+                    <td><span class="sample-color ts-bg-yellow float-start"></span>#fcaf1f</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-yellow float-start"></span>#fcaf1f</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-gray-900</td>
+                    <td><span class="sample-color ts-bg-gray-900 float-start"></span>#131314</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-gray-900 float-start"></span>#E8E8E8</td>
+                    <td>Text titles, body copy, icons</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-gray-600</td>
+                    <td><span class="sample-color ts-bg-gray-600 float-start"></span>#717172</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-gray-600 float-start"></span>#A1A1A1</td>
+                    <td>Caption text</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-gray-500</td>
+                    <td><span class="sample-color ts-bg-gray-500 float-start"></span>#888889</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-gray-500 float-start"></span>#89898A</td>
+                    <td>Caption text 2</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-gray-400</td>
+                    <td><span class="sample-color ts-bg-gray-400 float-start"></span>#A5A5A5</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-gray-400 float-start"></span>#6D6D6D</td>
+                    <td>Text read-only/disabled states</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-gray-200</td>
+                    <td><span class="sample-color ts-bg-gray-200 float-start"></span>#D9D9DC</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-gray-200 float-start"></span>#383839</td>
+                    <td>Input fields</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-gray-100</td>
+                    <td><span class="sample-color ts-bg-gray-100 float-start"></span>#ECECEC</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-gray-100 float-start"></span>#262626</td>
+                    <td>Border, line separators</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="fw-500">ts-gray-050</td>
+                    <td><span class="sample-color ts-bg-gray-050 float-start"></span>#F3F3F3</td>
+                    <td data-theme="dark"><span class="sample-color ts-bg-gray-050 float-start"></span>#1F1F20</td>
+                    <td>Raised background</td>
+                </tr>
+
+            </tbody>
+        </table>
+    
+        <h4 class="mt-5">Sample Previews</h4>
+        <p>Previews for Light and Dark modes for PWA.</p>
+
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+                <div class="card">
+                    <div data-theme="" class="card-body widgets">
+                        <h5 class="card-title">Light Mode</h5>
+                        <hr class="ts-divider">
+
+                        <div class="d-flex flex-row mb-3">
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-gray-900">57,356.00</span></div>
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-blue">57,356.00</span></div>
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-red">57,356.00</span></div>
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-green">57,356.00</span></div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3">
-                        <div class="card-img-top ts-bg-red" style="height: 100px;"></div>
-                        <div class="card-body card-body-sm" style="height: 133px;">                           
-                            <h5>Red / Price Down</h5>
-                            <div class="mt-3">
-                                <strong>Hex:</strong>
-                                #e42548<br>
-                                <strong>RGB:</strong>
-                                rgb(228,37,72)
+                        <p class="ts-gray-500"><span class="fw-500 ts-gray-900">Watchlist</span> Forex Indices Stocks</p>
+                        <p class="fs-12 ts-gray-500 d-flex align-items-center"><span class="ts-gray-900 fw-500">Symbol </span> <i class="icon icon-arrow-sort icon-16 ts-gray-500"></i> Spread Sell/Buy</p>
+                        <h5 class="ts-gray-900 fs-16">EUR/USD  1.146<span class="ts-blue">65</span> <span class="ts-gray-400">/</span> <span class="ts-red">75</span></h5>
+                        <p class="fs-13 ts-gray-500 d-flex align-items-center"><i class="icon icon-clock-fill icon-16 ts-green me-1"></i> 10:13:12</p>
+                        <hr class="ts-divider">
+                        <h5 class="ts-gray-900 fs-16">EUR/USD  1.146<span class="ts-blue">65</span> <span class="ts-gray-400">/</span> <span class="ts-red">75</span></h5>
+                        <p class="fs-13 ts-gray-500 d-flex align-items-center"><i class="icon icon-clock-fill icon-16 ts-green me-1"></i> 10:13:12</p>
+                        <div class="d-flex">
+                            <div class="flex-fill fs-16 btn-sell"><span class="fs-12 ts-light-500">SELL</span><br>1.14662</div>
+                            <div class="flex-fill fs-16 btn-buy text-end"><span class="fs-12 ts-light-500">BUY</span><br>1.14662</div>
                             </div>
+                    
+                        <div class="ts-bg-rased text-center p-2 mt-3">
+                        <i class="icon icon-rates icon-24 me-3 ts-blue"></i>
+                        <i class="icon icon-portfolio icon-24 me-3 ts-gray-400"></i>
+                        <i class="icon icon-person-fill icon-24 me-3 ts-gray-400"></i>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                <div class="card mb-3">
-                    <div class="card-img-top ts-bg-green" style="height: 100px;"></div>
-                    <div class="card-body card-body-sm" style="height: 133px;">                           
-                        <h5>Green</h5>
-                        <div class="mt-3">
-                            <strong>Hex:</strong>
-                            #33a04e<br>
-                            <strong>RGB:</strong>
-                            rgb(51,160,78)
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
-            <pre><code class="language-css">.ts-blue {color: #0071eb;}
-.ts-red {color: #e42548;}
-.ts-green {color: #33a04e;}</code></pre>
+            <div class="col">
+                <div class="card">
+                    <div data-theme="dark" class="card-body widgets">
+                        <h5 class="card-title ts-gray-900">Dark Mode</h5>
+                        <hr class="ts-divider">
+
+                        <div class="d-flex flex-row mb-3">
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-gray-900">57,356.00</span></div>
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-blue">57,356.00</span></div>
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-red">57,356.00</span></div>
+                            <div class="pe-3"><span class="fs-12 ts-gray-500">Equity</span><br><span class="fs-13 fw-500 ts-green">57,356.00</span></div>
+                            </div>
+                        <p class="ts-gray-500"><span class="fw-500 ts-gray-900">Watchlist</span> Forex Indices Stocks</p>
+                        <p class="fs-12 ts-gray-500 d-flex align-items-center"><span class="ts-gray-500 fw-500">Symbol </span> <i class="icon icon-arrow-sort icon-16 ts-gray-600"></i> Spread Sell/Buy</p>
+                        <h5 class="ts-gray-900 fs-16">EUR/USD  1.146<span class="ts-blue">65</span> <span class="ts-gray-400">/</span> <span class="ts-red">75</span></h5>
+                        <p class="fs-13 ts-gray-500 d-flex align-items-center"><i class="icon icon-clock-fill icon-16 ts-green me-1"></i> 10:13:12</p>
+                        <hr class="ts-divider">
+                        <h5 class="ts-gray-900 fs-16">EUR/USD  1.146<span class="ts-blue">65</span> <span class="ts-gray-400">/</span> <span class="ts-red">75</span></h5>
+                        <p class="fs-13 ts-gray-500 d-flex align-items-center"><i class="icon icon-clock-fill icon-16 ts-green me-1"></i> 10:13:12</p>
+                        <div class="d-flex">
+                            <div class="flex-fill fs-16 btn-sell"><span class="fs-12 ts-light-500">SELL</span><br>1.14662</div>
+                            <div class="flex-fill fs-16 btn-buy text-end"><span class="fs-12 ts-light-500">BUY</span><br>1.14662</div>
+                            </div>
+                    
+                        <div class="ts-bg-rased text-center p-2 mt-3">
+                        <i class="icon icon-rates icon-24 me-3 ts-blue"></i>
+                        <i class="icon icon-portfolio icon-24 me-3 ts-gray-400"></i>
+                        <i class="icon icon-person-fill icon-24 me-3 ts-gray-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<pre><code class="language-css">@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); 
+:root {
+    --ts-bg-main: #ffffff; /* bg main */
+    --ts-blue: #0071eb;
+    --ts-red: #e42548;
+    --ts-green: #2ea44f;
+    --ts-orange: #fd581f;
+    --ts-yellow: #fcaf1f;
+    --ts-gray-900: rgba(0, 0, 0, 0.9); /* text high */
+    --ts-gray-600: rgba(0, 0, 0, 0.6); /* text medium */
+    --ts-gray-500: rgba(0, 0, 0, 0.5); /* text medium */
+    --ts-gray-400: rgba(0, 0, 0, 0.38); /* text disabled */
+    --ts-gray-100: rgba(0, 0, 0, 0.08); /* border */
+    --ts-gray-050: rgba(0, 0, 0, 0.05); /* raised bg */
+    --ts-light-900: rgba(255, 255, 255, 0.9); /* light text high - dark bg */
+    --ts-light-500: rgba(255, 255, 255, 0.5); /* light text medium - dark bg */
+    --ts-light-400:rgba(255, 255, 255, 0.38); /* light text disabled - dark bg */
+    --ts-font: Roboto, sans-serif; /* font primary */
+}
+[data-theme="dark"] {
+    --ts-bg-main: #131314; /* bg main */
+    --ts-blue: #2f93ff;
+    --ts-red: #f24968;
+    --ts-green: #34C759;
+    --ts-orange: #fd581f;
+    --ts-yellow: #fcaf1f;
+    --ts-gray-900: #E8E8E8; /* text high */
+    --ts-gray-600: #A1A1A1; /* text medium */
+    --ts-gray-500: #89898A; /* text medium */
+    --ts-gray-400: #6D6D6D; /* text disabled */
+    --ts-gray-200: #383839; /* input fields */
+    --ts-gray-100: #262626; /* border */
+    --ts-gray-050: #1F1F20; /* raised bg */
+    --ts-light-900: rgba(255, 255, 255, 0.9); /* light text high - dark bg */
+    --ts-light-500: rgba(255, 255, 255, 0.5); /* light text medium - dark bg */
+    --ts-light-400:rgba(255, 255, 255, 0.38); /* light text disabled - dark bg */
+  }</code></pre>
+
+
+
+
+
             
             <h2 class="mt-5" id="typography"><span class="text-black-50">03 /</span> Typography</h2>
             <hr class="my-3">
             <div class="row">
-              <div class="col"><h1 class="f-700 mb-0" style="font-size: 5.5rem; line-height: 1;">Aa</h1><h3 class="mt-0">Roboto</h3>
+              <div class="col"><h1 class="fw-700 mb-0" style="font-size: 5.5rem; line-height: 1;">Aa</h1><h3 class="mt-0">Roboto</h3>
               </div>
               <div class="col">
                 <h6>Font Family:</h6>
-                <p class="f-400">Roboto</p>
+                <p class="fw-400">Roboto</p>
                 <h6>CSS rules to specify families:</h6>
-                <p class="f-400"><i>font-family: 'Roboto', sans-serif;</i></p>
+                <p class="fw-400"><i>font-family: 'Roboto', sans-serif;</i></p>
               </div>
               <div class="col"><strong>Styles:</strong>
                 <br>
-                <span class="f-400">Regular - 400</span><br>
-                <span class="f-500">Medium - 500</span><br>
-                <span class="f-700">Bold - 700</span>
+                <span class="fw-400">Regular - 400</span><br>
+                <span class="fw-500">Medium - 500</span><br>
+                <span class="fw-700">Bold - 700</span>
               </div>
             </div>
             <p>Latest font could be downloaded directly from <a href="https://fonts.google.com/specimen/Roboto" target="_blakn">Google Fonts</a>. </p>
@@ -156,6 +317,11 @@
                     <li>
                         <i class="icon icon-add"></i>
                         <p>icon-add</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-arrow-sort"></i>
+                        <p>icon-arrow-sort</p>
                     </li>
                 
                     <li>
@@ -266,6 +432,16 @@
                     <li>
                         <i class="icon icon-check"></i>
                         <p>icon-check</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-clock-fill"></i>
+                        <p>icon-clock-fill</p>
+                    </li>
+                
+                    <li>
+                        <i class="icon icon-clock"></i>
+                        <p>icon-clock</p>
                     </li>
                 
                     <li>
@@ -426,10 +602,25 @@
 <i class="icon icon-close icon-bg-circle"></i>
 <pre><code class="language-html">&lt;i class=&quot;icon icon-close icon-bg-circle&quot;&gt;&lt;/i&gt;</code></pre>
 
+<h2 class="mt-5" id="widgets"><span class="text-black-50">05 /</span> Widgets</h2>
+            <hr class="my-3">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <div class="card">
+                            <h6 style="padding: 1rem 0 0 1rem;">Divident Calendar</h6>
+                            <div class="ratio ratio-4x3">
+                                <iframe src="widget-dividend-calendar.html" title="" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                </div>
             
           </main>
         </div>
       </div>
-      <script src="js/prism.js"></script>
+    <script src="js/prism.js"></script>
   </body>
 </html>

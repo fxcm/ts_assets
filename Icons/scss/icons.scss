@@ -7,55 +7,58 @@
 
 $icon-add-fill: unicode(ea01);
 $icon-add: unicode(ea02);
-$icon-bell-fill: unicode(ea03);
-$icon-bell: unicode(ea04);
-$icon-chart-arrow: unicode(ea05);
-$icon-chart-autoscale: unicode(ea06);
-$icon-chart-crosshair: unicode(ea07);
-$icon-chart-draw: unicode(ea08);
-$icon-chart-ellipse: unicode(ea09);
-$icon-chart-fullscreen: unicode(ea0a);
-$icon-chart-histogram: unicode(ea0b);
-$icon-chart-indicators: unicode(ea0c);
+$icon-arrow-sort: unicode(ea03);
+$icon-bell-fill: unicode(ea04);
+$icon-bell: unicode(ea05);
+$icon-chart-arrow: unicode(ea06);
+$icon-chart-autoscale: unicode(ea07);
+$icon-chart-crosshair: unicode(ea08);
+$icon-chart-draw: unicode(ea09);
+$icon-chart-ellipse: unicode(ea0a);
+$icon-chart-fullscreen: unicode(ea0b);
+$icon-chart-histogram: unicode(ea0c);
+$icon-chart-indicators: unicode(ea0e);
 $icon-chart-layers: unicode(ea0d);
-$icon-chart-line-horizontal: unicode(ea0e);
-$icon-chart-line-vertical: unicode(ea0f);
-$icon-chart-line: unicode(ea10);
-$icon-chart-none: unicode(ea11);
-$icon-chart-rectangle: unicode(ea12);
-$icon-chart-ruler: unicode(ea13);
-$icon-chart-type-bar: unicode(ea14);
-$icon-chart-type-candle: unicode(ea15);
+$icon-chart-line-horizontal: unicode(ea0f);
+$icon-chart-line-vertical: unicode(ea10);
+$icon-chart-line: unicode(ea11);
+$icon-chart-none: unicode(ea12);
+$icon-chart-rectangle: unicode(ea13);
+$icon-chart-ruler: unicode(ea14);
+$icon-chart-type-bar: unicode(ea15);
+$icon-chart-type-candle: unicode(ea16);
 $icon-chart-type-line: unicode(ea17);
-$icon-check-fill: unicode(ea16);
-$icon-check: unicode(ea18);
-$icon-close: unicode(ea19);
-$icon-drag-handle: unicode(ea1a);
-$icon-info-fill: unicode(ea1b);
-$icon-info: unicode(ea1c);
-$icon-language: unicode(ea1d);
-$icon-logout: unicode(ea1e);
-$icon-minus: unicode(ea1f);
-$icon-more-horiz: unicode(ea20);
-$icon-more-vert: unicode(ea21);
-$icon-person-circle: unicode(ea22);
-$icon-person-fill: unicode(ea24);
-$icon-person: unicode(ea23);
-$icon-plus: unicode(ea25);
-$icon-portfolio: unicode(ea26);
-$icon-rates: unicode(ea27);
-$icon-remove-fill: unicode(ea28);
-$icon-remove: unicode(ea29);
-$icon-report: unicode(ea2a);
-$icon-search-list: unicode(ea2b);
-$icon-search: unicode(ea2c);
-$icon-settings-fill: unicode(ea2d);
-$icon-settings: unicode(ea2e);
-$icon-share: unicode(ea2f);
-$icon-star-fill: unicode(ea30);
-$icon-star: unicode(ea31);
-$icon-visibility-off: unicode(ea32);
-$icon-visibility: unicode(ea33);
+$icon-check-fill: unicode(ea18);
+$icon-check: unicode(ea19);
+$icon-clock-fill: unicode(ea1a);
+$icon-clock: unicode(ea1b);
+$icon-close: unicode(ea1c);
+$icon-drag-handle: unicode(ea1d);
+$icon-info-fill: unicode(ea1e);
+$icon-info: unicode(ea1f);
+$icon-language: unicode(ea20);
+$icon-logout: unicode(ea21);
+$icon-minus: unicode(ea22);
+$icon-more-horiz: unicode(ea23);
+$icon-more-vert: unicode(ea24);
+$icon-person-circle: unicode(ea25);
+$icon-person-fill: unicode(ea26);
+$icon-person: unicode(ea27);
+$icon-plus: unicode(ea28);
+$icon-portfolio: unicode(ea29);
+$icon-rates: unicode(ea2a);
+$icon-remove-fill: unicode(ea2b);
+$icon-remove: unicode(ea2c);
+$icon-report: unicode(ea2d);
+$icon-search-list: unicode(ea2f);
+$icon-search: unicode(ea2e);
+$icon-settings-fill: unicode(ea30);
+$icon-settings: unicode(ea31);
+$icon-share: unicode(ea32);
+$icon-star-fill: unicode(ea33);
+$icon-star: unicode(ea34);
+$icon-visibility-off: unicode(ea35);
+$icon-visibility: unicode(ea36);
 
 .icon-add-fill::before {
   content: $icon-add-fill;
@@ -63,6 +66,10 @@ $icon-visibility: unicode(ea33);
 
 .icon-add::before {
   content: $icon-add;
+}
+
+.icon-arrow-sort::before {
+  content: $icon-arrow-sort;
 }
 
 .icon-bell-fill::before {
@@ -151,6 +158,14 @@ $icon-visibility: unicode(ea33);
 
 .icon-check::before {
   content: $icon-check;
+}
+
+.icon-clock-fill::before {
+  content: $icon-clock-fill;
+}
+
+.icon-clock::before {
+  content: $icon-clock;
 }
 
 .icon-close::before {
